@@ -5,7 +5,7 @@ React Custom Hook for handle Responsive Screens
 ```javascript
 import { useState, useEffect } from 'react';
 
-function useResponsive() {
+const useResponsive = () => {
   const [windowSize, setWindowSize] = useState({
     width: undefined,
     height: undefined,
